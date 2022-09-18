@@ -6,7 +6,7 @@ import Typewriter from "typewriter-effect"
 export default function Header() {
     return (
         <header>
-            <img src="./src/assets/rubba.jpg" className="header-portrait" alt="Picture of this websites developer"/>
+            <img src="./rubba.jpg" className="header-portrait" alt="Picture of this websites developer"/>
             <h2 className="header-h2">Hey, My name is Ruben. <br></br>I'm a construction engineer turned developer. 
                                         I love making frontend websites and applications.</h2>
             <div className="header-typewriter">
