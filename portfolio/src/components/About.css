@@ -1,0 +1,28 @@
+.about-me {
+    margin-top: 55px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.about-h2 { 
+    background: -webkit-linear-gradient(30deg, #12c2e9, #c471ed, #f64f59, rgb(199, 219, 14));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.8em;
+    font-weight: 600;
+    letter-spacing: 0.05;
+    margin-bottom: 0;
+}
+
+.about-p {
+    color: whitesmoke;
+    letter-spacing: 0.04em;
+    margin-top: 8px;
+}
+
+.resource {
+    background: -webkit-linear-gradient(30deg, #12c2e9, #c471ed, #f64f59, rgb(199, 219, 14));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
