@@ -56,11 +56,47 @@ input, textarea {
     border: 1px solid #111215;
 }
 
-input:focus, textarea:focus {
-    
+.name:focus {
     border: 1px solid #12c2e9;
+}
+
+input[type=email]:focus {
+    border: 1px solid #c471ed;
+}
+
+.subject:focus {
+    border: 1px solid #f64f59;
+}
+
+textarea:focus {
+    border: 1px solid rgb(199, 219, 14);
 }
 
 .input-group {
     margin-bottom: 1.1rem;
+}
+
+.contact-btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    width: 70%;
+    margin: 0 auto;
+    color: whitesmoke;
+    border-radius: 7px;
+    background: #111215;
+    box-shadow: 5px 5px 9px #070708,
+                -5px -5px 9px #1b1d22;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+.contact-btn:hover,
+.contact-btn:focus {
+    box-shadow: inset 5px 5px 9px #070708,
+                inset -5px -5px 9px #1b1d22;
+}
+
+.honeypot {
+    display: none;
 }

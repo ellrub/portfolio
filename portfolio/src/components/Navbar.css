@@ -15,7 +15,7 @@ nav h3 {
     font-size: 1.3em;
 }
 
-input[type = "checkbox"] {
+.nav-menu {
     -webkit-appearance: none;
     display: none;
     visibility: hidden;
@@ -51,14 +51,14 @@ input[type = "checkbox"] {
     bottom: 0;
 }
 
-input[type]:checked ~ span.top {
+.nav-menu:checked ~ span.top {
     transform: rotate(45deg);
     transform-origin: top left;
     width: 24px;
     left: 3px;
 }
 
-input[type]:checked ~ span.bottom {
+.nav-menu ~ span.bottom {
     transform: rotate(-45deg);
     transform-origin: top left;
     width: 24px;
@@ -66,7 +66,7 @@ input[type]:checked ~ span.bottom {
     box-shadow: 0 0 10px #495057;
 }
 
-input[type]:checked ~ span.middle {
+.nav-menu ~ span.middle {
     transform: translateX(-20px);
     opacity: 0;
 }
