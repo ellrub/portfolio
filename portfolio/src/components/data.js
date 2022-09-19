@@ -18,4 +18,5 @@ export default [
         github: "https://github.com/ellrub/ChinguTemplateClone",
         livelink: "https://chingu-template-clone.vercel.app/"
     },
+
 ]
