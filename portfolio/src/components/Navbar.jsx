@@ -5,7 +5,12 @@ export default function Navbar() {
     return (
         <nav className="navbar">
             <h3>Placeholder</h3>
-            <i className="fa-solid fa-bars nav-icon"></i>
+            <label for="check" class="bar">
+                <input id="check" type="checkbox" />
+                <span class="top"></span>
+                <span class="middle"></span>
+                <span class="bottom"></span>
+            </label>
         </nav>
     )
 }
