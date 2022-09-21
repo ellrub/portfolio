@@ -4,6 +4,8 @@
 
 body {
   background-color: #111215;
+  display: flex;
+  justify-content: center;
 }
 
 .app-container {

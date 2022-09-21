@@ -10,16 +10,16 @@ import Footer from './components/Footer'
 export default function App() {
   return (
     <div className='app-container'>
-      <header>
+      <header className='grid-item'>
         <Navbar />
       </header>
-      <main>
+      <main className='grid-item'>
         <Intro />
         <About />
         <Projects />
         <Contact />
       </main>
-      <footer>
+      <footer className='grid-item'>
         <Footer />
       </footer>
     </div>
