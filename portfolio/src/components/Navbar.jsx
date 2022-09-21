@@ -17,11 +17,3 @@ export default function Navbar() {
         </nav>
     )
 }
-
-// document.getElementById("menu").addEventListener("click", function() {
-//     document.getElementById("overlay").style.display = "block"
-// })
-
-// document.getElementById("menu").addEventListener("click", function() {
-//     document.getElementById("menu").style.display = "none"
-// })
