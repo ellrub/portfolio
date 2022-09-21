@@ -1,5 +1,5 @@
-header {
-    margin-top: 60px;
+.intro {
+    margin-top: 3.75rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,33 +7,30 @@ header {
     text-align: center;
 }
 
-.header-portrait {
+.intro-portrait {
     border-radius: 50%;
-    border: 5px solid;
-    border: double 5px transparent;
+    border: 0.3125rem solid;
+    border: double 0.3125rem transparent;
     background-image:   linear-gradient(#111215, #111215), 
                         radial-gradient(circle at top left, #12c2e9, #c471ed, #f64f59, rgb(199, 219, 14));
     background-origin: border-box;
     background-clip: content-box, border-box;
-    height: 240px;
-    
+    height: 15rem;   
 }
 
-.header-h2 {
-    margin-top: 40px;
+.intro-h2 {
+    margin-top: 2.5rem;
     color: whitesmoke;
-    font-size: 1.2em;
-    letter-spacing: 0.03em;
-    margin-left: 20px;
-    margin-right: 20px;
+    font-size: 1.2rem;
+    letter-spacing: 0.036rem;
     font-weight: 300;
 }
 
-.header-typewriter {
+.intro-typewriter {
     background: -webkit-linear-gradient(30deg, #12c2e9, #c471ed, #f64f59, rgb(199, 219, 14));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 1.8em;
+    font-size: 1.7rem;
     font-weight: 600;
-    letter-spacing: 0.05;
+    letter-spacing: 0.03rem;
 }

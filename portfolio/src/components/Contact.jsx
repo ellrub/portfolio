@@ -5,8 +5,10 @@ export default function Contact() {
     return (
         <section className="contact-me">
             <h2 className="contact-h2">Contact Me</h2>
+            <p>If you came all this way, i would love to hear from you. 
+                Use the form and i will get back to you as quickly as possible, or use one of my other channels below.</p>
             <div className="contact-card group">
-                <form action="https://formsubmit.co/ef4dd30446c32a85bf7ebbdf31bc7e2d" method="POST">
+                <form action="https://formsubmit.co/ef4dd30446c32a85bf7ebbdf31bc7e2d" method="POST" autoComplete="off">
                     {/* -- Honeypot -- */}
                     <input type="text" name="_honey" className="honeypot"/>
 

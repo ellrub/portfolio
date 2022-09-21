@@ -1,15 +1,15 @@
 import React from "react"
-import "./Header.css"
+import "./Intro.css"
 import "./ArrowAni.css"
 import Typewriter from "typewriter-effect"
 
-export default function Header() {
+export default function Intro() {
     return (
-        <header>
-            <img src="./rubba.jpg" className="header-portrait" alt="Picture of this websites developer"/>
-            <h2 className="header-h2">Hey, My name is Ruben. <br></br>I'm a construction engineer turned developer. 
+        <section className="intro">
+            <img src="./rubba.jpg" className="intro-portrait" alt="Picture of this websites developer"/>
+            <h2 className="intro-h2">Hey, My name is Ruben. <br></br>I'm a construction engineer turned developer. 
                                         I love making frontend websites and applications.</h2>
-            <div className="header-typewriter">
+            <div className="intro-typewriter">
                 <Typewriter options={{loop:true,}}
                     onInit={(typewriter) => {
                         typewriter
@@ -34,6 +34,6 @@ export default function Header() {
                 <span className="arrow-two"></span>
                 <span className="arrow-three"></span>
             </div>
-        </header>
+        </section>
     )
 }

@@ -5,3 +5,9 @@
 body {
   background-color: #111215;
 }
+
+.app-container {
+  max-width: 60rem;
+  margin: 0 1rem;
+  padding: 0 1rem;
+}

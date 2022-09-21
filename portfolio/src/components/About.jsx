@@ -3,7 +3,7 @@ import "./About.css"
 
 export default function About() {
     return (
-        <section className="about-me">
+        <section className="container">
             <h2 className="about-h2">About me</h2>
             <p className="about-p">I've been in construction my whole life, so when i lost my job as a project manager in december 2021, 
                 i decided to finally pursue my passion for technology. So after a few months of looking at different jobs and 
