@@ -1,7 +1,3 @@
-.projects {
-    margin-top: 1.875rem;
-}
-
 .projects-h2 {
     background: -webkit-linear-gradient(30deg, #12c2e9, #c471ed, #f64f59, rgb(199, 219, 14));
     -webkit-background-clip: text;
@@ -9,5 +5,12 @@
     font-size: 1.8rem;
     font-weight: 600;
     letter-spacing: 0.036rem;
-    margin-bottom: 0;
+    margin-bottom: 0;   
+    width: 7.5rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    grid-gap: 2rem;
 }

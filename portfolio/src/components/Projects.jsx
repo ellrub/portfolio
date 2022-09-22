@@ -13,7 +13,9 @@ export default function Projects() {
     return (
         <section className="container">
             <h2 className="projects-h2">Projects</h2>
+            <div className="grid-container">
                 {dataElement}
+            </div>
         </section>
     )
 }

@@ -2,7 +2,7 @@ import React from "react"
 import "./Card.css"
 
 export default function Card(props) {
-    return (
+        return (
         <section className="card">
             <h3 className="card-h3">{props.item.title}</h3>
             <h4 className="card-h4">{props.item.subtitle}</h4>
